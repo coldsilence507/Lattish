@@ -66,6 +66,8 @@ def onQQMessage(bot, contact, member, content):
                 bot.SendTo(contact, '不会自己看群公告啊，傻逼')
                 bot.SendTo(contact, '网页版：http://tenhou.net/3/?L2587')
                 bot.SendTo(contact, 'Flash 版：http://tenhou.net/0/?L2587')
+            elif "操大黄妈" in content:
+                bot.SendTo(contact, '不操,guen')
             else:
                 bot.SendTo(contact, '操你妈要求真多')
 
